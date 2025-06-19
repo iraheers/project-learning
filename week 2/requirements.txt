@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+ollama
+Python-dotenv
+requests
+
+langchain
+langchain-ollama
+langchain-chroma
+pandas
