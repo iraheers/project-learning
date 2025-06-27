@@ -47,7 +47,7 @@ async def get_caption(file_path: str = None,):
     # - Ignore non-food objects.
     # List each food item separately, clearly and accurately."""
 
-    instruction = """Identify the food items visible in this image. Be very specific and detailed for each item. Ignore non-food objects. List each food item separately, clearly and accurately."""
+    instruction = """What is in the image?"""
 
     result = ollama.generate(
         model='llava',
