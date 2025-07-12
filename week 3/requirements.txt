@@ -1,0 +1,9 @@
+transformers 
+pillow 
+torch
+faiss-cpu
+ultralytics 
+segment-anything 
+pillow 
+opencv-python
+ultralytics
