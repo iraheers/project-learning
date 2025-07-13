@@ -1,0 +1,21 @@
+ 1. Detected Food Items: There are two food items detected in the image - a sandwich and an apple.
+
+2. Quantity Estimation: Based on the bounding boxes and masks provided, it seems that there is only one instance of each food item. Therefore, the quantity estimation for both food items is '1'.
+
+3. Nutritional Information:
+   - Sandwich: A typical sandwich can contain a variety of ingredients, including bread, cheese, meats, and vegetables. The specific nutritional information will depend on the exact ingredients in this particular sandwich. However, assuming an average sandwich with 100g bread, 30g cheese, and 50g meats, the following is an estimation:
+     - Calories: 350-450
+     - Protein: 20g-30g
+     - Fat: 18g-26g
+     - Carbohydrates: 40g-50g
+   - Apple: The nutritional information for an apple is as follows:
+     - Calories: 95
+     - Protein: 0.3g
+     - Fat: 0.2g
+     - Carbohydrates: 25g
+
+4. Total Nutritional Summary: To calculate the total calories, protein, fat, and carbohydrates for all detected food items, we need to know the exact ingredients in this particular sandwich. However, based on the above estimates, we can provide a rough estimate:
+   - Total Calories: 450-650
+   - Total Protein: 20g-30g + 0.3g = 20.3g-30.3g
+   - Total Fat: 18g-26g + 0.2g = 18.2g-26.2g
+   - Total Carbohydrates: 40g-50g + 25g = 65g-75g 
