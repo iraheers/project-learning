@@ -1,0 +1,14 @@
+ 1. Detected Food Items: The detected food items in the image are an apple, bread, lettuce, onion, and other ingredients.
+2. Quantity Estimation: The quantities of each detected food item are as follows:
+   - Apple: 1
+   - Bread: 2
+   - Lettuce: 0.375
+   - Onion: 0.469
+   - Other ingredients: 0.198
+3. Nutritional Information:
+   - Apple: Approximately 95 calories, 0.3 g protein, 2.4 g fat, and 25.1 g carbohydrates per 100 grams.
+   - Bread: Approximately 70-100 calories, 2-3 g protein, 1-2 g fat, and 45-60 g carbohydrates per slice (depending on the type of bread).
+   - Lettuce: Approximately 1.5 calories, 0.2 g protein, 0.2 g fat, and 0.3 g carbohydrates per 100 grams.
+   - Onion: Approximately 40-60 calories, 1.5 g protein, 0.3 g fat, and 9-12 g carbohydrates per 100 grams.
+   - Other ingredients: The nutritional information for other ingredients is not provided in the image, as it's not possible to determine their specific types or quantities.
+4. Total Nutritional Summary: To calculate the total nutritional summary, we need to know the weight of each food item and the total calories, protein, fat, and carbohydrates for all detected food items. However, as I don't have access to the actual image or the weights of the food items, I cannot provide the total nutritional summary based on the given information. 

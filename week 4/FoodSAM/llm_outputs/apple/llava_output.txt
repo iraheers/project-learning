@@ -1,0 +1,20 @@
+**Detected Food Items:**
+1. Apple
+
+**Quantity Estimation:**
+- The apple covers an area of 43,329 pixels, which is approximately equivalent to the size of a medium-sized apple.
+
+**Nutritional Information:**
+1. Apple:
+   - Calories: 95 kcal per medium-sized apple
+   - Protein: 0.5g
+   - Fat: 0.3g
+   - Carbohydrates: 25g
+
+**Total Nutritional Summary:**
+- Total Calories: 95 kcal
+- Total Protein: 0.5g
+- Total Fat: 0.3g
+- Total Carbohydrates: 25g
+
+Please note that the nutritional values provided are approximate and can vary based on the specific variety and size of the food item.
