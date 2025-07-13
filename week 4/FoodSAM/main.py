@@ -82,7 +82,7 @@ Your response should have 4 sections:
 
 # from openai import OpenAI
 
-# client = OpenAI(api_key="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")
+# client = OpenAI(api_key="")
 
 # completion = client.chat.completions.create(
 #     model="gpt-3.5-turbo",  # or "gpt-3.5-turbo"
