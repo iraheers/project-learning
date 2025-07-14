@@ -1,0 +1,18 @@
+ 1. Detected Food Items: apple, avocado, banana, grape, mango, orange, pear, pepper, pumpkin, tomato.
+2. Quantity Estimation: The masks have been used to determine the quantity of each food item in the image. For example, there are 3 apples with a total mask area of 212531 pixels, which is equivalent to 0.4113 of the image. Similarly, the other food items also have corresponding mask areas and percentages.
+3. Nutritional Information: Here are the nutritional information for each detected food item, including calories, protein, fat, and carbohydrates:
+   - Apple: 80-120 calories, 2g protein, 0g fat, 25g carbs per 100g.
+   - Avocado: 234-326 calories, 2g protein, 21g fat, 7g carbs per 100g.
+   - Banana: 89-118 calories, 1g protein, 0g fat, 23g carbs per 100g.
+   - Grape: 68-77 calories, 0.5g protein, 0g fat, 18g carbs per 100g.
+   - Mango: 137-179 calories, 1g protein, 0.4g fat, 39g carbs per 100g.
+   - Orange: 62-71 calories, 1g protein, 0.2g fat, 15g carbs per 100g.
+   - Pear: 50-68 calories, 0.3g protein, 0.2g fat, 14g carbs per 100g.
+   - Pepper: not applicable.
+   - Pumpkin: 29-47 calories, 1g protein, 0.3g fat, 6g carbs per 100g.
+   - Tomato: 18-25 calories, 1g protein, 0.2g fat, 3.7g carbs per 100g.
+4. Total Nutritional Summary: The total nutritional information for all detected food items is as follows:
+   - Calories: The total number of calories is 985-1269.
+   - Protein: The total amount of protein is 7-10 grams.
+   - Fat: The total amount of fat is 3.2g-4.8g.
+   - Carbohydrates: The total amount of carbohydrates is 156g-205g. 

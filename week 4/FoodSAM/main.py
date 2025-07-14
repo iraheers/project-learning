@@ -6,14 +6,14 @@ from langchain_core.messages import HumanMessage
 
 import subprocess
 
-image = "apple_and_burger"
-image_name = image + ".jpeg"
+image = "fruits"
+image_name = image + ".jpg"
 saved_path = Path("test_images/" + image_name)
 
 # Define the command as a list of strings
 cmd = [
     "python",
-    "FoodSAM/panoptic.py",
+    "FoodSAM/semantic.py",
     "--img_path",
     "test_images/" + image_name,
     "--output",
@@ -28,6 +28,7 @@ if result.returncode == 0:
     print("FoodSAM completed successfully!")
 else:
     print("FoodSAM encountered an error.")
+    exit(1)
 
 # Load FoodSAM CSV
 file_path = Path("outputs/" + image + "/sam_mask_label/semantic_masks_category.txt")
@@ -82,7 +83,7 @@ Your response should have 4 sections:
 
 # from openai import OpenAI
 
-# client = OpenAI(api_key="")
+# client = OpenAI(api_key="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")
 
 # completion = client.chat.completions.create(
 #     model="gpt-3.5-turbo",  # or "gpt-3.5-turbo"
@@ -127,7 +128,7 @@ result = model.invoke(messages)
 print(result)
 
 # Save output
-output_file = Path("llm_outputs/" + image + "/llava_output.txt")
+output_file = Path("llm_outputs/" + image + ".txt")
 with open(output_file, "w", encoding="utf-8") as f:
     f.write(result)
 
