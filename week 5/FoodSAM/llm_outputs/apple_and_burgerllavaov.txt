@@ -1,0 +1,41 @@
+user 
+
+You are an expert in food recognition and nutritional information.
+
+The orginal image and panoramic images of food items are provided.
+
+Analyze both the images, mask labels, and detected objects to provide a comprehensive analysis of the food items.
+Your response should have 4 sections:
+1. Detected Food Items: List all the food items detected.
+2. Quantity Estimation: Estimate the quantity of each food item based on the masks and panoramic image.
+3. Nutritional Information: Provide the nutritional information for each detected food item, including calories, protein, fat, and carbohydrates.
+4. Total Nutritional Summary: Calculate the total calories, protein, fat, and carbohydrates for all detected food items.
+assistant
+1. Detected Food Items:
+- Apple
+- Cheeseburger
+
+2. Quantity Estimation:
+- Apple: 1
+- Cheeseburger: 1
+
+3. Nutritional Information:
+- Apple:
+  - Calories: 95
+  - Protein: 0.5g
+  - Fat: 0.2g
+  - Carbohydrates: 25g
+
+- Cheeseburger:
+  - Calories: 400
+  - Protein: 20g
+  - Fat: 25g
+  - Carbohydrates: 10g
+
+4. Total Nutritional Summary:
+- Calories: 495
+- Protein: 20.5g
+- Fat: 25.2g
+- Carbohydrates: 35g
+
+Please note that the nutritional information provided is an estimate based on the detected food items and their typical nutritional content. Actual nutritional values may vary depending on the specific ingredients and preparation methods used.

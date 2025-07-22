@@ -1,0 +1,39 @@
+ 1. Detected Food Items:
+- Oranges (6)
+- Bananas (3)
+- Apples (3)
+
+2. Quantity Estimation:
+Oranges: 6 pieces
+Bananas: 3 pieces
+Apples: 3 pieces
+
+3. Nutritional Information:
+Please note that the nutritional information provided below is an average based on standard values for these fruits. Actual values may vary depending on the specific variety and ripeness of each fruit.
+
+Oranges (6):
+- Calories: Approximately 100 calories per medium orange
+- Protein: Approximately 3 g per medium orange
+- Fat: Less than 1 g per medium orange
+- Carbohydrates: Approximately 25 g per medium orange
+
+Bananas (3):
+- Calories: Approximately 105 calories per medium banana
+- Protein: Approximately 1.4 g per medium banana
+- Fat: Less than 0.5 g per medium banana
+- Carbohydrates: Approximately 27 g per medium banana
+
+Apples (3):
+- Calories: Approximately 95 calories per medium apple
+- Protein: Approximately 1 g per medium apple
+- Fat: Less than 0.2 g per medium apple
+- Carbohydrates: Approximately 27 g per medium apple
+
+4. Total Nutritional Summary:
+Based on the detected food items and quantities, the total nutritional summary is as follows:
+- Calories: (6 oranges * 100 calories) + (3 bananas * 105 calories) + (3 apples * 95 calories) = approximately 1450 calories
+- Protein: (6 oranges * 3 g each) + (3 bananas * 1.4 g each) + (3 apples * 1 g each) = approximately 20.4 g of protein
+- Fat: Less than 1.5 g per fruit, so the total fat content is negligible
+- Carbohydrates: (6 oranges * 25 g each) + (3 bananas * 27 g each) + (3 apples * 27 g each) = approximately 294 g of carbohydrates
+
+This summary provides a general idea of the nutritional content of the fruit assortment. However, for precise values and to account for any additional ingredients that may not be visible in the image, it would be necessary to know the specific recipes or meal plans involving these fruits. 

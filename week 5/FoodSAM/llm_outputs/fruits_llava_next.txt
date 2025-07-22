@@ -1,0 +1,38 @@
+1. Detected Food Items:
+- Apples (3)
+- Oranges (2)
+- Bananas (3)
+- Grapes (1)
+- Watermelon (1)
+- Pineapple (1)
+- Peppers (2)
+- Melons (1)
+
+2. Quantity Estimation:
+Apples - 3
+Oranges - 2
+Bananas - 3
+Grapes - 1
+Watermelon - 1
+Pineapple - 1
+Peppers - 2
+Melons - 1
+
+3. Nutritional Information (per unit unless otherwise specified):
+- Apples: Approximately 80 calories, 0.4 g protein, 0.3 g fat, 25 g carbohydrates.
+- Oranges: Approximately 70 calories, 1 g protein, 0.9 g fat, 17 g carbohydrates.
+- Bananas: Approximately 110 calories, 1 g protein, 0.3 g fat, 28 g carbohydrates.
+- Grapes: Approximately 65 calories, 0.5 g protein, 0.1 g fat, 16 g carbohydrates.
+- Watermelon: Approximately 46 calories, 1 g protein, 0.2 g fat, 12 g carbohydrates.
+- Pineapple: Approximately 83 calories, 0.5 g protein, 0.2 g fat, 22 g carbohydrates.
+- Peppers: Nutritional information varies greatly depending on the type of pepper (e.g., bell peppers have different nutritional profiles than chili peppers), but typically, a medium-sized bell pepper contains approximately 30 calories, 1 g protein, 0.2 g fat, 7 g carbohydrates.
+- Melons: The caloric content and nutrient profile of melons can vary widely, but an average serving might contain approximately 50 calories, 0.5 g protein, 0.3 g fat, 13 g carbohydrates.
+
+4. Total Nutritional Summary:
+Total Calories: Approximately 472 calories
+Total Protein: 3.6 g
+Total Fat: 1.9 g
+Total Carbohydrates: 85 g
+
+Please note that these values are approximate and can vary based on the specific variety of each fruit or vegetable, their size, ripeness, and preparation method. 
+

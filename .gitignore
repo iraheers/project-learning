@@ -1,10 +1,17 @@
 __pycache__/
 week 3/datasets/*
 food_dataset/*
+
 /week 4/FoodSAM/*
 !/week 4/FoodSAM/main.py
-!/week 4/FoodSAM/outputs/
 !/week 4/FoodSAM/llm_outputs/
 /week 4/yolov12/*
 !/week 4/yolov12/main.py
-!/week 4/yolov12/runs/
+
+/week 5/FoodSAM/*
+!/week 5/FoodSAM/main.py
+!/week 5/FoodSAM/llm_outputs/
+/week 5/yolov12/*
+!/week 5/yolov12/main.py
+!/week 5/yolov12/test.py
+!/week 5/yolov12/llavaov.py

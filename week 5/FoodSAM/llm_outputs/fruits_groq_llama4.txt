@@ -1,0 +1,142 @@
+## 1. Detected Food Items
+The following food items are detected in the images:
+
+- Apples: 2
+- Bananas: 5
+- Oranges: 7
+- Grapes: 2 clusters
+- Avocado/Coconut: 1
+- Mango: 2
+- Pear: 1
+- Pineapple: 1
+- Watermelon: 1
+- Cantaloupe/Melon: 1
+- Peppers/Bell Peppers: 4
+- Tomatoes/Cherry Tomatoes: 2
+- Pomegranate: 1
+
+## 2. Quantity Estimation
+Based on the masks and panoramic image, here is an estimation of the quantity of each food item:
+
+- Apples: 2
+- Bananas: 5
+- Oranges: 7
+- Grapes: 2 clusters (approximately 20-25 grapes)
+- Avocado/Coconut: 1
+- Mango: 2
+- Pear: 1
+- Pineapple: 1
+- Watermelon: 1
+- Cantaloupe/Melon: 1
+- Peppers/Bell Peppers: 4
+- Tomatoes/Cherry Tomatoes: 2 (approximately 10-12 cherry tomatoes)
+
+## 3. Nutritional Information
+Here is the nutritional information for each detected food item per unit:
+
+- Apple: 
+  - Calories: 95
+  - Protein: 0.3g
+  - Fat: 0.5g
+  - Carbohydrates: 25g
+
+- Banana: 
+  - Calories: 105
+  - Protein: 1.3g
+  - Fat: 0.3g
+  - Carbohydrates: 27g
+
+- Orange: 
+  - Calories: 60
+  - Protein: 1.3g
+  - Fat: 0.2g
+  - Carbohydrates: 16g
+
+- Grapes (1 cup):
+  - Calories: 60
+  - Protein: 1g
+  - Fat: 0.5g
+  - Carbohydrates: 16g
+
+- Avocado: 
+  - Calories: 160
+  - Protein: 3g
+  - Fat: 14g
+  - Carbohydrates: 8g
+
+- Mango: 
+  - Calories: 55
+  - Protein: 0.5g
+  - Fat: 0.5g
+  - Carbohydrates: 14g
+
+- Pear: 
+  - Calories: 62
+  - Protein: 0.6g
+  - Fat: 0.2g
+  - Carbohydrates: 16g
+
+- Pineapple (1 slice):
+  - Calories: 82
+  - Protein: 1g
+  - Fat: 0.2g
+  - Carbohydrates: 21g
+
+- Watermelon (1 cup):
+  - Calories: 45
+  - Protein: 1g
+  - Fat: 0.2g
+  - Carbohydrates: 11g
+
+- Cantaloupe/Melon (1 cup):
+  - Calories: 50
+  - Protein: 1g
+  - Fat: 0.2g
+  - Carbohydrates: 12g
+
+- Bell Pepper: 
+  - Calories: 49
+  - Protein: 1g
+  - Fat: 0.2g
+  - Carbohydrates: 10g
+
+- Tomatoes (1 cup cherry tomatoes):
+  - Calories: 20
+  - Protein: 1g
+  - Fat: 0.2g
+  - Carbohydrates: 5g
+
+- Pomegranate: 
+  - Calories: 83
+  - Protein: 1g
+  - Fat: 0.3g
+  - Carbohydrates: 21g
+
+## 4. Total Nutritional Summary
+To calculate the total nutritional summary, we'll use the estimated quantities:
+
+- Apples: 2 * (95, 0.3, 0.5, 25) = 190, 0.6, 1, 50
+- Bananas: 5 * (105, 1.3, 0.3, 27) = 525, 6.5, 1.5, 135
+- Oranges: 7 * (60, 1.3, 0.2, 16) = 420, 9.1, 1.4, 112
+- Grapes: 2 clusters (approx. 20-25 grapes, using 22.5 as average): 22.5 * (60/22.5, 1, 0.5, 16/22.5) = 60, 1, 0.5, 16
+- Avocado/Coconut: 1 * (160, 3, 14, 8) = 160, 3, 14, 8
+- Mango: 2 * (55, 0.5, 0.5, 14) = 110, 1, 1, 28
+- Pear: 1 * (62, 0.6, 0.2, 16) = 62, 0.6, 0.2, 16
+- Pineapple: 1 * (82, 1, 0.2, 21) = 82, 1, 0.2, 21
+- Watermelon: 1 * (45, 1, 0.2, 11) = 45, 1, 0.2, 11
+- Cantaloupe/Melon: 1 * (50, 1, 0.2, 12) = 50, 1, 0.2, 12
+- Peppers/Bell Peppers: 4 * (49, 1, 0.2, 10) = 196, 4, 0.8, 40
+- Tomatoes/Cherry Tomatoes: 10 * (20, 1, 0.2, 5) = 200, 10, 2, 50
+- Pomegranate: 1 * (83, 1, 0.3, 21) = 83, 1, 0.3, 21
+
+**Total:**
+- Calories: 190 + 525 + 420 + 60 + 160 + 110 + 62 + 82 + 45 + 50 + 196 + 200 + 83 = 2098
+- Protein: 0.6 + 6.5 + 9.1 + 1 + 3 + 1 + 0.6 + 1 + 1 + 1 + 4 + 10 + 1 = 40
+- Fat: 1 + 1.5 + 1.4 + 0.5 + 14 + 1 + 0.2 + 0.2 + 0.2 + 0.2 + 0.8 + 2 + 0.3 = 24.3
+- Carbohydrates: 50 + 135 + 112 + 16 + 8 + 28 + 16 + 21 + 11 + 12 + 40 + 50 + 21 = 530
+
+The total nutritional summary for all detected food items is approximately:
+- Calories: 2098
+- Protein: 40g
+- Fat: 24.3g
+- Carbohydrates: 530g

@@ -1,0 +1,222 @@
+user 
+
+You are an expert in food recognition and nutritional information.
+
+The orginal image and panoramic images of food items are provided.
+
+Analyze both the images, mask labels, and detected objects to provide a comprehensive analysis of the food items.
+Your response should have 4 sections:
+1. Detected Food Items: List all the food items detected.
+2. Quantity Estimation: Estimate the quantity of each food item based on the masks and panoramic image.
+3. Nutritional Information: Provide the nutritional information for each detected food item, including calories, protein, fat, and carbohydrates.
+4. Total Nutritional Summary: Calculate the total calories, protein, fat, and carbohydrates for all detected food items.
+assistant
+1. Detected Food Items:
+- Apples
+- Oranges
+- Grapes
+- Bananas
+- Pineapple
+- Mango
+- Peppers
+- Pumpkins
+- Watermelon
+- Cantaloupe
+- Kiwi
+- Pears
+- Plums
+- Cherries
+- Blueberries
+- Raspberries
+- Strawberries
+- Blackberries
+- Apricots
+- Peaches
+- Nectarines
+- Tomatoes
+- Cucumbers
+- Carrots
+- Sweet Potatoes
+- Onions
+- Garlic
+- Celery
+- Broccoli
+- Cauliflower
+- Spinach
+- Kale
+- Collard Greens
+- Swiss Chard
+- Lettuce
+- Radishes
+- Beets
+- Asparagus
+- Green Beans
+- Corn
+- Peas
+- Lentils
+- Chickpeas
+- Soybeans
+- Tofu
+- Quinoa
+- Rice
+- Barley
+- Oats
+- Whole Wheat
+- Brown Rice
+- Millet
+- Teff
+- Amaranth
+- Buckwheat
+- Popcorn
+- Popcorn Kernels
+- Popcorn Oil
+- Popcorn Salt
+- Popcorn Seasoning
+- Popcorn Bag
+- Popcorn Bowl
+- Popcorn Plate
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn Bowl
+- Popcorn

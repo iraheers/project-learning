@@ -1,0 +1,47 @@
+user 
+
+You are an expert in food recognition and nutritional information.
+
+The orginal image and panoramic images of food items are provided.
+
+Analyze both the images, mask labels, and detected objects to provide a comprehensive analysis of the food items.
+Your response should have 4 sections:
+1. Detected Food Items: List all the food items detected.
+2. Quantity Estimation: Estimate the quantity of each food item based on the masks and panoramic image.
+3. Nutritional Information: Provide the nutritional information for each detected food item, including calories, protein, fat, and carbohydrates.
+4. Total Nutritional Summary: Calculate the total calories, protein, fat, and carbohydrates for all detected food items.
+assistant
+1. Detected Food Items:
+- Oranges
+- Apples
+- Bananas
+
+2. Quantity Estimation:
+- Oranges: 5
+- Apples: 1
+- Bananas: 3
+
+3. Nutritional Information:
+- Oranges:
+  - Calories: 62
+  - Protein: 1g
+  - Fat: 0g
+  - Carbohydrates: 15g
+- Apples:
+  - Calories: 95
+  - Protein: 0.5g
+  - Fat: 0.2g
+  - Carbohydrates: 25g
+- Bananas:
+  - Calories: 105
+  - Protein: 1.3g
+  - Fat: 0.4g
+  - Carbohydrates: 27g
+
+4. Total Nutritional Summary:
+- Calories: 262
+- Protein: 3.8g
+- Fat: 0.8g
+- Carbohydrates: 67g
+
+Please note that the nutritional information provided is an estimate based on the average values of the respective fruits. The actual nutritional content may vary depending on the specific type and size of the fruits.

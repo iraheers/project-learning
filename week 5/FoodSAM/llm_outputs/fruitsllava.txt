@@ -1,0 +1,42 @@
+ 1. Detected Food Items:
+- Apples
+- Oranges
+- Bananas
+- Pineapples
+- Watermelon
+- Cantaloupe
+- Grapes
+- Melons (cantaloupes and watermelons)
+- Strawberries
+- Peaches
+- Mango
+- Fruit in general, as there is a mix of different fruits and vegetables.
+
+2. Quantity Estimation:
+- Apples: 3 to 5 visible apples based on the panoramic image.
+- Oranges: 4 to 6 oranges are present.
+- Bananas: 3 bananas are visible in the image.
+- Pineapples: There are 2 pineapples in the panoramic view.
+- Watermelon and Cantaloupe: The panoramic image shows multiple instances of these, but the exact number cannot be determined without more context.
+- Grapes: The image shows a bunch of grapes with about 10 to 20 visible grapes in different places.
+- Melons (cantaloupes and watermelons): The panoramic view includes multiple instances of these, but the exact number cannot be determined without more context.
+- Strawberries: There are a few visible strawberries in the panoramic view.
+- Peaches: 2 to 3 peaches can be observed in the image and the panorama.
+- Mango: A single mango is visible in the image.
+- Fruit in general: As there is a mix of different fruits and vegetables, it's difficult to estimate a total quantity without seeing more of each item.
+
+3. Nutritional Information:
+- Apples: 1 medium apple contains approximately 95 calories, 4 g protein, 25 g carbohydrates, 2 g dietary fiber, and less than 1 g fat.
+- Oranges: A medium orange has about 60-70 calories, 1 g protein, 13 g carbohydrates, 3 g dietary fiber, and 1 g fat.
+- Bananas: One medium banana contains approximately 100 calories, 1.5 g protein, 25 g carbohydrates, 3 g dietary fiber, and less than 1 g fat.
+- Pineapples: A slice of pineapple (about 84 g) has around 72 calories, 1 g protein, 16 g carbohydrates, 0 g fat, and 1 g dietary fiber.
+- Watermelon and Cantaloupe: These have similar nutritional profiles. A slice of watermelon (about 84 g) contains approximately 46 calories, 0.5 g protein, 11 g carbohydrates, 1 g dietary fiber, and less than 1 g fat. Cantaloupe has a slightly different profile but the numbers are close to those for watermelon.
+- Grapes: A cup of grapes (about 150 g) contains approximately 67 calories, 0.8 g protein, 15 g carbohydrates, 2 g dietary fiber, and less than 1 g fat.
+- Melons: The exact nutritional information varies based on the type of melon. For example, a slice of cantaloupe (about 84 g) has approximately 46 calories, 0.5 g protein, 11 g carbohydrates, 1 g dietary fiber, and less than 1 g fat.
+- Strawberries: A cup of strawberries (about 237 g) contains approximately 59 calories, 1 g protein, 14 g carbohydrates, 2 g dietary fiber, and less than 1 g fat.
+- Peaches: One medium peach has around 60-70 calories, 0.8 g protein, 13 g carbohydrates, 0 g fat, and 1 g dietary fiber.
+- Mango: A slice of mango (about 84 g) contains approximately 72 calories, 0.5 g protein, 16 g carbohydrates, 0 g dietary fiber, and less than 1 g fat.
+- Fruit in general: The nutritional information for all fruits is too broad to be quantified accurately here. It would depend on the specific fruits included and their quantities.
+
+4. Total Nutritional Summary:
+The exact total of calories, protein, fat, and carbohydrates cannot be determined without more context or a clearer image showing the quantity and type of each food item. The nutritional values provided are for individual items, which need to be adjusted based on the actual quantity of each in the panoramic view. 

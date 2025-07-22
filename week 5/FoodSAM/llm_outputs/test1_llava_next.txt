@@ -1,0 +1,17 @@
+ Detected Food Items:
+- Bananas (x3)
+- Oranges (x4)
+- Apple
+
+Quantity Estimation:
+Based on the panoramic image, it appears there are three bananas, four oranges, and one apple. The oranges and bananas are arranged in a circular pattern, while the apple is placed separately.
+
+Nutritional Information:
+- Bananas: Approximately 300 calories per bunch (x3), around 12 grams of protein, 7 grams of fat, and approximately 75 grams of carbohydrates.
+- Oranges: Approximately 90 calories per orange (x4), about 6 grams of protein each, with 2 grams of fat, and around 23 grams of carbohydrates.
+- Apple: Around 50-100 calories, 1 gram of protein, negligible amount of fat, and approximately 25 grams of carbohydrates.
+
+Total Nutritional Summary:
+The total estimated calories from the food items are around 700-800, with a high amount of vitamins C (from the oranges) and A (from the carrots). The total protein content is approximately 25 grams, while the total fat content is roughly 13 grams. The carbohydrate count is about 160-200 grams, which would be around 400-500 calories if all were consumed as carbs.
+
+Please note that these are rough estimates based on average values for the items and assuming that no other food items or beverages are present in the image. The actual nutritional values can vary significantly depending on the specific variety of fruit, their ripeness, and individual serving sizes. 
