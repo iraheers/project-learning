@@ -11,7 +11,25 @@ food_dataset/*
 /week 5/FoodSAM/*
 !/week 5/FoodSAM/main.py
 !/week 5/FoodSAM/llm_outputs/
+!/week 5/FoodSAM/groq_test.py
+!/week 5/FoodSAM/compute_eval_statistics.py
+!/week 5/FoodSAM/create_groundtruth.py
+!/week 5/FoodSAM/evaluate.py
+!/week 5/FoodSAM/groundtruth_sample_filtered.csv
+!/week 5/FoodSAM/groundtruth_sample.csv
+!/week 5/FoodSAM/llavaov.py
+!/week 5/FoodSAM/output_statistics_groq.json
+!/week 5/FoodSAM/output_statistics_promptedit.json
+!/week 5/FoodSAM/output_statistics.json
+!/week 5/FoodSAM/predictions_sample_prompt_groq.csv
+!/week 5/FoodSAM/predictions_sample_promptedit.csv
+!/week 5/FoodSAM/predictions_sample.csv
+!/week 5/FoodSAM/create_sample.py
+!/week 5/FoodSAM/download_sample.sh
+
+
 /week 5/yolov12/*
 !/week 5/yolov12/main.py
 !/week 5/yolov12/test.py
 !/week 5/yolov12/llavaov.py
+!/week 5/yolov12/siglip_test.py
