@@ -68,7 +68,7 @@ def encode_image(image_path):
 base64_image_og = encode_image(image_path)
 base64_image_segmented = encode_image(panoramic_image_path)
 
-client = Groq(api_key="")
+client = Groq(api_key="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")
 
 chat_completion = client.chat.completions.create(
     messages=[
