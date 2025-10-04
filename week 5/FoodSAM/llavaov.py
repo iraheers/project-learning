@@ -11,46 +11,53 @@ import subprocess
 
 import torch
 from transformers import LlavaOnevisionForConditionalGeneration, BitsAndBytesConfig, AutoProcessor
+from PIL import Image
+import ast
 
-image = "fruits"
+
+
+image = "apple"
 image_name = image + ".jpg"
 image_path = "test_images/" + image_name
 panoramic_image_path = "outputs/" + image + "/panoramic_vis.png"
+panoramic_image_path = "outputs/dish_1558461792/rgb/panoramic_vis.png"
 
 # Step 3: Build the full prompt
 template = f"""
-You are an expert in food recognition and nutritional information.
+        You are an expert in food recognition and nutritional analysis.
+        You are provided with a panoramic segmentation image from FoodSAM.
+        
 
-The orginal image and panoramic images of food items are provided.
+        Your task is to estimate the total nutritional information for the dish based on the identified food items.
 
-Analyze both the images, mask labels, and detected objects to provide a comprehensive analysis of the food items.
-Your response should have 4 sections:
-1. Detected Food Items: List all the food items detected.
-2. Quantity Estimation: Estimate the quantity of each food item based on the masks and panoramic image.
-3. Nutritional Information: Provide the nutritional information for each detected food item, including calories, protein, fat, and carbohydrates.
-4. Total Nutritional Summary: Calculate the total calories, protein, fat, and carbohydrates for all detected food items.
-"""
+        IMPORTANT: Return ONLY a string in the following format:
+        ["dish_id","calories","mass","fat","carb","protein"]
+        where calories, mass, fat, carb, and protein are float numbers
 
-# quantization_config = BitsAndBytesConfig(
-#     load_in_4bit=True,
-#     bnb_4bit_quant_type="nf4",
-#     bnb_4bit_compute_dtype=torch.float16,
-# )
+        Do NOT include any extra comments or explanations.
+        """
+
+quantization_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.float16,
+)
 
 torch.cuda.empty_cache()
 
 model = LlavaOnevisionForConditionalGeneration.from_pretrained("llava-hf/llava-onevision-qwen2-7b-ov-hf", 
                                                                device_map="auto",
                                                                torch_dtype=torch.float16,
+                                                                quantization_config=quantization_config,
                                                                )
 processor = AutoProcessor.from_pretrained("llava-hf/llava-onevision-qwen2-7b-ov-hf")
 
+original_image = Image.open(image_path).convert("RGB")
 conversation = [
     {
         "role": "user",
         "content": [
-            {"type": "image", "url": image_path},
-            {"type": "image", "url": panoramic_image_path},
+            {"type": "image", "image": original_image},
             {"type": "text", "text": template},
         ],
     },
@@ -60,10 +67,28 @@ inputs = inputs.to("cuda:0", torch.float16)
 
 # autoregressively complete prompt
 output = model.generate(**inputs, max_new_tokens=1000)
-result = (processor.decode(output[0], skip_special_tokens=True))
+
+input_token_len = inputs['input_ids'].shape[1]
+response_token_ids = output[0][input_token_len:]
+result = processor.decode(response_token_ids, skip_special_tokens=True)
 
 print(result)
 
-output_file = Path("llm_outputs/" + image + "_llavaov.txt")
-with open(output_file, "w", encoding="utf-8") as f:
-    f.write(result)
+start = result.find('[')
+end = result.rfind(']')
+
+# Extract only the list portion
+if start != -1 and end != -1 and end > start:
+    cleaned = result[start:end+1].strip()
+    print(type(cleaned))  # <class 'str'>
+else:
+    print("No valid list found.")
+    cleaned = None
+
+if cleaned:
+    lst = ast.literal_eval(cleaned)  # Use ast.literal_eval to parse string into list
+    print(type(lst))
+
+# output_file = Path("llm_outputs/" + image + "_llavaov.txt")
+# with open(output_file, "w", encoding="utf-8") as f:
+#     f.write(result)
