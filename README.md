@@ -14,4 +14,4 @@
 - ✅ Food segmentation (FoodSAM)
 - ⚙️ Weight estimation (in progress)
 - 🔬 LLM evaluation on Nutrition5k
-- 🧩 "week 5/llm.py" is main pipeline script for evaluation
+- 🧩 "week 5/FoodSAM/llm.py" is main pipeline script for evaluation
