@@ -26,10 +26,12 @@ food_dataset/*
 !/week 5/FoodSAM/predictions_sample.csv
 !/week 5/FoodSAM/create_sample.py
 !/week 5/FoodSAM/download_sample.sh
+!/week 5/FoodSAM/llm.py
 
 
 /week 5/yolov12/*
 !/week 5/yolov12/main.py
 !/week 5/yolov12/test.py
 !/week 5/yolov12/llavaov.py
+!/week 5/yolov12/siglip_test.py
 !/week 5/yolov12/siglip_test.py

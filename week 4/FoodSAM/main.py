@@ -6,7 +6,7 @@ from langchain_core.messages import HumanMessage
 
 import subprocess
 
-image = "fruits"
+image = "plate3"
 image_name = image + ".jpg"
 saved_path = Path("test_images/" + image_name)
 
