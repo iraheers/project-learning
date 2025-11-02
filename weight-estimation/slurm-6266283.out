@@ -1,0 +1,4 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+'(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /llava-hf/llava-onevision-qwen2-7b-ov-hf/resolve/main/config.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8b78f28e20>: Failed to establish a new connection: [Errno 101] Network is unreachable'))"), '(Request ID: c407f514-6e65-4b87-8b51-a10d6d94745d)')' thrown while requesting HEAD https://huggingface.co/llava-hf/llava-onevision-qwen2-7b-ov-hf/resolve/main/config.json
+Retrying in 1s [Retry 1/5].
+slurmstepd: error: *** JOB 6266283 ON p2-cpu-41 CANCELLED AT 2025-10-17T01:19:21 DUE TO TIME LIMIT ***

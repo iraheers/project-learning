@@ -35,3 +35,7 @@ food_dataset/*
 !/week 5/yolov12/llavaov.py
 !/week 5/yolov12/siglip_test.py
 !/week 5/yolov12/siglip_test.py
+
+/weight-estimation/FoodSAM/*
+!/weight-estimation/images/*
+!/weight-estimation/volume_outputs/*

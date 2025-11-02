@@ -1,0 +1,9 @@
+Food Volume Summary
+==============================
+lettuce: 2.629155
+onion: 0.264777
+bread: 16.740599
+other ingredients: 0.062389
+apple: 3.509062
+cheese butter: 0.419600
+steak: 0.246867
